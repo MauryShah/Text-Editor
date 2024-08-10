@@ -1,0 +1,70 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+// import React, { useState } from "react";
+
+// export default function Textform(props) {
+//   const [text, setText] = useState("Enter your text");
+//   const upperCase = () => {
+//     setText("The button is clicked");
+//     let upperText = text.toUpperCase();
+//     setText(upperText);
+//     console.log("The button was clicked");
+//     console.log(`The words that were upper were "${upperText}"`);
+//   };
+//   const lowerCase = () => {
+//     let lowerText = text.toLowerCase();
+//     setText(lowerText);
+//   };
+
+//   const strOnChange = (event) => {
+//     console.log("On changed");
+//     setText(event.target.value);
+//   };
+//   return (
+//     <>
+//       <div>
+//         <div className="container">
+//           {/* <div className="mb-3"> */}
+//           <label htmlFor="exampleFormControlTextarea1" className="form-label">
+//             <h1>{props.textArea}</h1>
+//           </label>
+//           <textarea
+//             className="form-control"
+//             id="exampleFormControlTextarea1"
+//             rows="8"
+//             defaultValue={""}
+//             value={text}
+//             onChange={strOnChange}
+//           />
+//           <button
+//             className="btn btn-primary my-3"
+//             color="pink"
+//             onClick={upperCase}
+//           >
+//             Convert to Upper Case
+//           </button>
+//           <button
+//             className="btn btn-primary my-3 mx-3"
+//             color="pink"
+//             onClick={lowerCase}
+//           >
+//             Convert to Lower Case
+//           </button>
+//         </div>
+//         <div className="container">
+//           <h1>Text Info</h1>
+//           <p>
+//             Words is {text.split(" ").length} and characters is {text.length}
+//           </p>
+//           <h2>Preview</h2>
+//           <p>
+//             Time taken to read the whole is {0.008 * text.split(" ").length}{" "}
+//             seconds
+//           </p>
+//           <p>{text}</p>
+//         </div>
+//       </div>
+//     </>
+//   );
+// }
